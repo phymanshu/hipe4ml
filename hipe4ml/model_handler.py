@@ -51,9 +51,9 @@ class ModelHandler:
             self.model_string = inspect.getmodule(
                 self.model).__name__.partition('.')[0]
 
-            if self.model_string not in ["xgboost", "lightgbm", "sklearn"]:
-                raise ValueError(
-                    "Model must be either 'xgboost', 'lightgbm' or 'sklearn'")
+            # if self.model_string not in ["xgboost", "lightgbm", "sklearn"]:
+            #     raise ValueError(
+            #         "Model must be either 'xgboost', 'lightgbm' or 'sklearn'")
 
             if self.model_params is None:
                 self.model_params = self.model.get_params()

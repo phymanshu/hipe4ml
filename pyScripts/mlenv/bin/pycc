@@ -1,0 +1,3 @@
+#!/home/himanshu/Sharma/hipe4ml/pyScripts/mlenv/bin/python3
+from numba.pycc import main
+main()
