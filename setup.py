@@ -57,7 +57,7 @@ SETUP = Setup(
 
     description="Minimal heavy ion physics environment for Machine Learning",
 
-    url="https://github.com/hipe4ml/hipe4ml",
+    url="https://github.com/phymanshu/hipe4ml/hipe4ml",
     author="hipe4ml-developers",
     author_email="hipe4ml@googlegroups.com",
     license="GPL",
